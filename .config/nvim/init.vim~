@@ -1,0 +1,22 @@
+syntax on
+set autoindent
+set tabstop=4
+set encoding=utf-8
+
+call plug#begin('~/.plugged')
+
+Plug 'scrooloose/nerdtree'
+
+" appearance things
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'neoclide/coc.nvim'
+" Plug 'dracula/vim'
+call plug#end()
+
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+
+colorscheme dracula
+nmap <Tab> :NERDTreeToggle
