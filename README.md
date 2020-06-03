@@ -15,3 +15,4 @@ Comes with:
 - rofi config
 - Spotify CSS
 
+![](pic2.jpg)
