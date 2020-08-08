@@ -1,0 +1,13 @@
+#!/bin/bash
+
+choices="cancel\nlogout\nreboot\nshutdown"
+chosen=$(echo -e $choices | rofi -dmenu -i -p "Power Menu")
+
+echo "$chosen"
+
+case "$chosen" in
+	cancel) echo "quits automatically";;
+	logout) loginctl terminate-user xyzyzl;;
+	reboot) loginctl reboot;;
+	shutdown) loginctl poweroff;;
+esac
