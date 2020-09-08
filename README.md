@@ -15,4 +15,6 @@ Comes with:
 - rofi config
 - Spotify CSS
 
+![](pic1.png)
 ![](pic2.jpg)
+![](pic3.png)
