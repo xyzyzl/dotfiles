@@ -13,7 +13,7 @@ Comes with:
 - polybar
 - qutebrowser quickmarks (not much else is setup, unfortunately)
 - rofi config
-- Spotify CSS
+- Spotify CSS with spicetify
 
 ![](pic1.png)
 ![](pic2.jpg)
